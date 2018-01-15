@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+
+    <!--definiowane w stylu!  16 sp (Nie dp! dp to to czegoś innego, a sp do czcionki ziomy)  -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    id_szczegol
+
+    <TextView
+        android:id="@+id/id_szczegol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="1"
+        android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+    <TextView
+        android:id="@+id/produkt_szczegol"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="Produkt"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Ilość: "
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/ilosc_szczegol"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:text="1"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+</LinearLayout>
+
+
+</LinearLayout>

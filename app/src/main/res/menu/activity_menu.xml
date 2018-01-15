@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+    <item
+    android:id="@+id/ListaZakupowMenu"
+    android:title="Lista Zakupów"
+    android:icon="@drawable/ic_list"
+        android:tooltipText="Przejdź do listy zakupów"
+
+    />
+    <item
+        android:id="@+id/WyczyśćListeMenu"
+        android:title="Wyczyść Liste"
+        android:icon="@drawable/ic_clear_list"
+        android:tooltipText="Wyczyść liste"
+        />
+</menu>
+
+<!--//-->
